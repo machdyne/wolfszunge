@@ -14,7 +14,7 @@ D = 16;
 WALL = 5;
 HD = 7.5;
 
-//translate([0,0,20]) wolfszunge_lid();
+translate([0,0,20]) wolfszunge_lid();
 wolfszunge_base();
  
 // translate([-15.5,0,14.5]) wolfszunge_pcb();
