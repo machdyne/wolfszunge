@@ -14,7 +14,7 @@ D = 16;
 WALL = 5;
 HD = 7.5;
 
-translate([0,0,20]) wolfszunge_lid();
+//translate([0,0,20]) wolfszunge_lid();
 wolfszunge_base();
  
 // translate([-15.5,0,14.5]) wolfszunge_pcb();
@@ -42,7 +42,7 @@ wolfszunge_base();
         translate([20,0,10.5]) cube([15,45,16], center=true);
          
         // usb cutout
-        translate([-35,0,15]) cube([20,9,10], center=true);
+        translate([-35,0,18]) cube([20,9,10], center=true);
  
         // antenna cutout
         rotate([90,0,0]) translate([20,10,-100]) cylinder(h=100, d=6.5, $fn=36);
